@@ -5,11 +5,13 @@
 import os
 import sys
 import json
+import runpy
 
 FPATH = "./data/explanationofbenefit"
 
 SUMMARY_FILE = "./data/eob_summary.json"
 RESULT_FILE = "./data/eob_result.csv"
+
 
 def get_ids():
 
@@ -128,9 +130,10 @@ def get_patient(entry):
 
     p = (entry['resource']['patient']['reference'])
 
-    p.split("/")
+    patient = p.split("/")
+    # print(patient)
 
-    return "%s/-%s" % (p[0], p[1])
+    return "%s/-%s" % (patient[0], patient[1])
 
 def get_eob_id(jd):
     # get individual eob info
@@ -213,3 +216,6 @@ def summarize_diagnosis(dlist, dl):
 
     return new_dlist
 
+
+if __name__ == '__main__':
+    eob_list = get_ids()
