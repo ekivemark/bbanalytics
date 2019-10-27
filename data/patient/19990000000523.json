@@ -1,0 +1,43 @@
+{
+  "resourceType": "Patient",
+  "id": "19990000000523",
+  "extension": [
+    {
+      "url": "https://bluebutton.cms.gov/resources/variables/race",
+      "valueCoding": {
+        "system": "https://bluebutton.cms.gov/resources/variables/race",
+        "code": "1",
+        "display": "White"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://bluebutton.cms.hhs.gov/identifier#bene_id",
+      "value": "19990000000523"
+    },
+    {
+      "system": "http://bluebutton.cms.hhs.gov/identifier#hicnHash",
+      "value": "d16fbf8a81e7c36520ba7db9198a3bb133193035316d0127f3d42bbdc6e11caa"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "family": "Doe",
+      "given": [
+        "Jane",
+        "X"
+      ]
+    }
+  ],
+  "gender": "unknown",
+  "birthDate": "1999-06-01",
+  "address": [
+    {
+      "district": "999",
+      "state": "07",
+      "postalCode": "99999"
+    }
+  ]
+}

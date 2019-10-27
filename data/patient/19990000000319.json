@@ -1,0 +1,43 @@
+{
+  "resourceType": "Patient",
+  "id": "19990000000319",
+  "extension": [
+    {
+      "url": "https://bluebutton.cms.gov/resources/variables/race",
+      "valueCoding": {
+        "system": "https://bluebutton.cms.gov/resources/variables/race",
+        "code": "1",
+        "display": "White"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://bluebutton.cms.hhs.gov/identifier#bene_id",
+      "value": "19990000000319"
+    },
+    {
+      "system": "http://bluebutton.cms.hhs.gov/identifier#hicnHash",
+      "value": "488edf3fdc55f9c84e5e71eb588f4d5e868c71f4b7e87068de21242bdc7a0665"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "family": "Doe",
+      "given": [
+        "John",
+        "X"
+      ]
+    }
+  ],
+  "gender": "unknown",
+  "birthDate": "1999-06-01",
+  "address": [
+    {
+      "district": "999",
+      "state": "22",
+      "postalCode": "99999"
+    }
+  ]
+}

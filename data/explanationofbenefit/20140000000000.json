@@ -1,0 +1,15 @@
+{
+  "resourceType": "Bundle",
+  "id": "4b7e2b94-c653-4d3f-b585-138a9703a2a2",
+  "meta": {
+    "lastUpdated": "2018-02-24T23:55:11.161-05:00"
+  },
+  "type": "searchset",
+  "total": 0,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir.backend.bluebutton.hhsdevcloud.us/baseDstu3/ExplanationOfBenefit/?_format=json&patient=20140000000000"
+    }
+  ]
+}
